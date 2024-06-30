@@ -1,5 +1,12 @@
 "use client";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetDescription,
+  SheetTitle,
+  SheetHeader,
+} from "@/components/ui/sheet";
 import { links } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,7 +19,12 @@ export default function MobileNav() {
       <SheetTrigger className="flex justify-center items-center">
         <CiMenuFries className="text-accent text-[32px]" />
       </SheetTrigger>
+
       <SheetContent className="flex flex-col bg-primary">
+        <SheetHeader>
+          <SheetTitle></SheetTitle>
+          <SheetDescription></SheetDescription>
+        </SheetHeader>
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href={"/"}>
             <h1 className="text-4xl font-semibold ">
