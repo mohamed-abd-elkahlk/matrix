@@ -9,6 +9,9 @@ import {
   FaCss3,
   FaJs,
   FaReact,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkedAlt,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
@@ -250,5 +253,23 @@ export const projects = [
     image: "/assets/work/thumb3.png",
     live: "",
     github: "",
+  },
+];
+
+export const info = [
+  {
+    icon: FaPhoneAlt,
+    title: "Phone",
+    describtion: "(+20) 114 701 8091",
+  },
+  {
+    icon: FaEnvelope,
+    title: "Email",
+    describtion: "username@domin.com",
+  },
+  {
+    icon: FaMapMarkedAlt,
+    title: "Address",
+    describtion: "Code Corner, Tech Town 13579",
   },
 ];
