@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { experiance, about, education, skills } from "@/constants";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 export default function Resume() {
   return (
     <motion.div
