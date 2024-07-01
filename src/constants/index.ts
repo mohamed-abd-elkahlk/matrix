@@ -20,3 +20,34 @@ export const status = [
   { num: 8, text: "Technologies masterd" },
   { num: 500, text: "Code commits" },
 ];
+
+export const services = [
+  {
+    num: "01",
+    title: "Web development",
+    descripetion:
+      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, eum sit atque porro iusto ratione deserunt tenetur.",
+    href: "",
+  },
+  {
+    num: "02",
+    title: "UI/UX Design",
+    descripetion:
+      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, eum sit atque porro iusto ratione deserunt tenetur.",
+    href: "",
+  },
+  {
+    num: "03",
+    title: "Logo Design",
+    descripetion:
+      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, eum sit atque porro iusto ratione deserunt tenetur.",
+    href: "",
+  },
+  {
+    num: "04",
+    title: "SEO",
+    descripetion:
+      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, eum sit atque porro iusto ratione deserunt tenetur.",
+    href: "",
+  },
+];
